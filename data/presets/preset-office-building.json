@@ -1,0 +1,614 @@
+{
+  "id": "preset-office-building",
+  "name": "Office Rooftop",
+  "description": "A 20 m office building with rooftop clutter, scaffolding and a bouncy awning far below.",
+  "source": "preset",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "environment": {
+    "sky": "#a7c6e8",
+    "ground": "#7d7d7d",
+    "fog": 0.008,
+    "sunIntensity": 2.4
+  },
+  "spawn": {
+    "position": [
+      0,
+      20,
+      5
+    ],
+    "rotationY": 0
+  },
+  "camera": {
+    "position": [
+      20,
+      16,
+      24
+    ],
+    "target": [
+      0,
+      10,
+      4
+    ]
+  },
+  "objects": [
+    {
+      "type": "box",
+      "position": [
+        0,
+        10,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#7f8fa6",
+      "material": "concrete",
+      "name": "building",
+      "size": [
+        12,
+        20,
+        12
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        20.3,
+        5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6d7a8d",
+      "material": "default",
+      "size": [
+        12,
+        0.6,
+        0.3
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        20.3,
+        -5.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6d7a8d",
+      "material": "default",
+      "size": [
+        12,
+        0.6,
+        0.3
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        5.85,
+        20.3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6d7a8d",
+      "material": "default",
+      "size": [
+        0.3,
+        0.6,
+        12
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -5.85,
+        20.3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6d7a8d",
+      "material": "default",
+      "size": [
+        0.3,
+        0.6,
+        12
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -3,
+        20.6,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b8bec6",
+      "material": "metal",
+      "name": "AC unit",
+      "size": [
+        2,
+        1.2,
+        1.5
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        20.6,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b8bec6",
+      "material": "metal",
+      "size": [
+        2,
+        1.2,
+        1.5
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3,
+        22.2,
+        -2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8b5a2b",
+      "material": "wood",
+      "name": "water tank",
+      "radius": 1.3,
+      "height": 2.4
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        2,
+        20.5,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#555555",
+      "material": "default",
+      "radius": 0.1,
+      "height": 1
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        4,
+        20.5,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#555555",
+      "material": "default",
+      "radius": 0.1,
+      "height": 1
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        2,
+        20.5,
+        -3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#555555",
+      "material": "default",
+      "radius": 0.1,
+      "height": 1
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        4,
+        20.5,
+        -3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#555555",
+      "material": "default",
+      "radius": 0.1,
+      "height": 1
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        4,
+        7
+      ],
+      "rotation": [
+        -18,
+        0,
+        0
+      ],
+      "color": "#c0392b",
+      "material": "rubber",
+      "name": "awning",
+      "size": [
+        6,
+        0.1,
+        2.2
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        4,
+        0.8,
+        8.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2e7d32",
+      "material": "metal",
+      "name": "dumpster",
+      "size": [
+        1.8,
+        1.6,
+        1.2
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -4,
+        0.65,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#d35400",
+      "material": "metal",
+      "name": "car",
+      "size": [
+        1.8,
+        0.8,
+        4.2
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -4,
+        1.35,
+        10.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#e67e22",
+      "material": "metal",
+      "size": [
+        1.6,
+        0.6,
+        2.2
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        7,
+        5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#a1887f",
+      "material": "wood",
+      "size": [
+        2,
+        0.15,
+        8
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        7,
+        10,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#a1887f",
+      "material": "wood",
+      "size": [
+        2,
+        0.15,
+        8
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        7,
+        15,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#a1887f",
+      "material": "wood",
+      "size": [
+        2,
+        0.15,
+        8
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        6.1,
+        7.5,
+        -3.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9e9e9e",
+      "material": "metal",
+      "radius": 0.06,
+      "height": 15
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        7.9,
+        7.5,
+        -3.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9e9e9e",
+      "material": "metal",
+      "radius": 0.06,
+      "height": 15
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        6.1,
+        7.5,
+        3.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9e9e9e",
+      "material": "metal",
+      "radius": 0.06,
+      "height": 15
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        7.9,
+        7.5,
+        3.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9e9e9e",
+      "material": "metal",
+      "radius": 0.06,
+      "height": 15
+    },
+    {
+      "type": "box",
+      "position": [
+        2,
+        0.3,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c8a165",
+      "material": "default",
+      "name": "cardboard box",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "dynamic": true,
+      "mass": 4
+    },
+    {
+      "type": "box",
+      "position": [
+        2.65,
+        0.3,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c8a165",
+      "material": "default",
+      "name": "cardboard box",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "dynamic": true,
+      "mass": 4
+    },
+    {
+      "type": "box",
+      "position": [
+        3.3,
+        0.3,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c8a165",
+      "material": "default",
+      "name": "cardboard box",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "dynamic": true,
+      "mass": 4
+    },
+    {
+      "type": "box",
+      "position": [
+        2,
+        0.8999999999999999,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c8a165",
+      "material": "default",
+      "name": "cardboard box",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "dynamic": true,
+      "mass": 4
+    },
+    {
+      "type": "box",
+      "position": [
+        2.65,
+        0.8999999999999999,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c8a165",
+      "material": "default",
+      "name": "cardboard box",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "dynamic": true,
+      "mass": 4
+    },
+    {
+      "type": "box",
+      "position": [
+        3.3,
+        0.8999999999999999,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c8a165",
+      "material": "default",
+      "name": "cardboard box",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "dynamic": true,
+      "mass": 4
+    }
+  ],
+  "items": [],
+  "order": 2
+}

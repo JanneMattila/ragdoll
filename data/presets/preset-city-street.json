@@ -1,0 +1,956 @@
+{
+  "id": "preset-city-street",
+  "name": "City Street",
+  "description": "A downtown street with a parked car, bus stop, traffic cones, bins and curbs to trip over.",
+  "source": "preset",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "environment": {
+    "sky": "#b7c9d9",
+    "ground": "#6b6b6b",
+    "fog": 0.012,
+    "sunIntensity": 2.2
+  },
+  "spawn": {
+    "position": [
+      -1.5,
+      1.6,
+      -0.2
+    ],
+    "rotationY": 90
+  },
+  "camera": {
+    "position": [
+      -2,
+      5,
+      10
+    ],
+    "target": [
+      1.5,
+      1,
+      -1
+    ]
+  },
+  "objects": [
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.01,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#3b3b3b",
+      "material": "concrete",
+      "name": "road",
+      "size": [
+        8,
+        0.02,
+        60
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        5.5,
+        0.075,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b5b5b5",
+      "material": "concrete",
+      "name": "sidewalk",
+      "size": [
+        3,
+        0.15,
+        60
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -5.5,
+        0.075,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b5b5b5",
+      "material": "concrete",
+      "size": [
+        3,
+        0.15,
+        60
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.025,
+        -20
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f1f1f1",
+      "material": "default",
+      "size": [
+        0.2,
+        0.02,
+        3
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.025,
+        -10
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f1f1f1",
+      "material": "default",
+      "size": [
+        0.2,
+        0.02,
+        3
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.025,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f1f1f1",
+      "material": "default",
+      "size": [
+        0.2,
+        0.02,
+        3
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.025,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f1f1f1",
+      "material": "default",
+      "size": [
+        0.2,
+        0.02,
+        3
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.025,
+        20
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f1f1f1",
+      "material": "default",
+      "size": [
+        0.2,
+        0.02,
+        3
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -1.5,
+        0.65,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2962ff",
+      "material": "metal",
+      "name": "car",
+      "size": [
+        1.8,
+        0.7,
+        4.2
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -1.5,
+        1.3,
+        -0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#1e4bd8",
+      "material": "metal",
+      "size": [
+        1.6,
+        0.6,
+        2.2
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -2.45,
+        0.33,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#1a1a1a",
+      "material": "rubber",
+      "radius": 0.33,
+      "height": 0.25
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -0.55,
+        0.33,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#1a1a1a",
+      "material": "rubber",
+      "radius": 0.33,
+      "height": 0.25
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -2.45,
+        0.33,
+        1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#1a1a1a",
+      "material": "rubber",
+      "radius": 0.33,
+      "height": 0.25
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -0.55,
+        0.33,
+        1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "color": "#1a1a1a",
+      "material": "rubber",
+      "radius": 0.33,
+      "height": 0.25
+    },
+    {
+      "type": "box",
+      "position": [
+        5.6,
+        2.6,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#455a64",
+      "material": "metal",
+      "name": "bus stop roof",
+      "size": [
+        3,
+        0.1,
+        1.5
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        5.6,
+        1.375,
+        -4.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b3e5fc",
+      "material": "default",
+      "name": "glass",
+      "size": [
+        3,
+        2.45,
+        0.05
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        4.15,
+        1.375,
+        -3.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#455a64",
+      "material": "default",
+      "radius": 0.05,
+      "height": 2.45
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        7.05,
+        1.375,
+        -3.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#455a64",
+      "material": "default",
+      "radius": 0.05,
+      "height": 2.45
+    },
+    {
+      "type": "box",
+      "position": [
+        5.6,
+        0.6,
+        -4.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#795548",
+      "material": "wood",
+      "name": "bench",
+      "size": [
+        2.4,
+        0.08,
+        0.45
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        4.5,
+        0.5,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#d32f2f",
+      "material": "metal",
+      "name": "hydrant",
+      "radius": 0.18,
+      "height": 0.7
+    },
+    {
+      "type": "box",
+      "position": [
+        4.5,
+        0.7,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#1565c0",
+      "material": "metal",
+      "name": "mailbox",
+      "size": [
+        0.5,
+        1.1,
+        0.45
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        4.6,
+        0.6,
+        -8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2e7d32",
+      "material": "default",
+      "name": "trash bin",
+      "radius": 0.3,
+      "height": 0.9,
+      "dynamic": true,
+      "mass": 8
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        4.6,
+        0.6,
+        -9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2e7d32",
+      "material": "default",
+      "radius": 0.3,
+      "height": 0.9,
+      "dynamic": true,
+      "mass": 8
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        1.6,
+        0.31,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ff6d00",
+      "material": "rubber",
+      "name": "cone",
+      "radius": 0.14,
+      "height": 0.6,
+      "dynamic": true,
+      "mass": 1.5
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        1.6,
+        0.31,
+        5.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ff6d00",
+      "material": "rubber",
+      "name": "cone",
+      "radius": 0.14,
+      "height": 0.6,
+      "dynamic": true,
+      "mass": 1.5
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        1.6,
+        0.31,
+        6.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ff6d00",
+      "material": "rubber",
+      "name": "cone",
+      "radius": 0.14,
+      "height": 0.6,
+      "dynamic": true,
+      "mass": 1.5
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        1.6,
+        0.31,
+        7.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ff6d00",
+      "material": "rubber",
+      "name": "cone",
+      "radius": 0.14,
+      "height": 0.6,
+      "dynamic": true,
+      "mass": 1.5
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        1.6,
+        0.31,
+        8.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ff6d00",
+      "material": "rubber",
+      "name": "cone",
+      "radius": 0.14,
+      "height": 0.6,
+      "dynamic": true,
+      "mass": 1.5
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        6.6,
+        2.65,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "metal",
+      "name": "street lamp",
+      "radius": 0.08,
+      "height": 5
+    },
+    {
+      "type": "box",
+      "position": [
+        6,
+        5.1,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "default",
+      "size": [
+        1.4,
+        0.15,
+        0.3
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        6.6,
+        2.65,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "metal",
+      "name": "street lamp",
+      "radius": 0.08,
+      "height": 5
+    },
+    {
+      "type": "box",
+      "position": [
+        6,
+        5.1,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "default",
+      "size": [
+        1.4,
+        0.15,
+        0.3
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        6.6,
+        2.65,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "metal",
+      "name": "street lamp",
+      "radius": 0.08,
+      "height": 5
+    },
+    {
+      "type": "box",
+      "position": [
+        6,
+        5.1,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "default",
+      "size": [
+        1.4,
+        0.15,
+        0.3
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        11,
+        4,
+        -25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#d7ccc8",
+      "material": "concrete",
+      "size": [
+        8,
+        8,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -11,
+        4,
+        -25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cfd8dc",
+      "material": "concrete",
+      "size": [
+        8,
+        8,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        11,
+        7,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bcaaa4",
+      "material": "concrete",
+      "size": [
+        8,
+        14,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -11,
+        7,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#a1887f",
+      "material": "concrete",
+      "size": [
+        8,
+        14,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        11,
+        10,
+        -5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#90a4ae",
+      "material": "concrete",
+      "size": [
+        8,
+        20,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -11,
+        10,
+        -5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0bec5",
+      "material": "concrete",
+      "size": [
+        8,
+        20,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        11,
+        5.5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cfd8dc",
+      "material": "concrete",
+      "size": [
+        8,
+        11,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -11,
+        5.5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#d7ccc8",
+      "material": "concrete",
+      "size": [
+        8,
+        11,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        11,
+        8.5,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#a1887f",
+      "material": "concrete",
+      "size": [
+        8,
+        17,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -11,
+        8.5,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bcaaa4",
+      "material": "concrete",
+      "size": [
+        8,
+        17,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        11,
+        4,
+        25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b0bec5",
+      "material": "concrete",
+      "size": [
+        8,
+        8,
+        9.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -11,
+        4,
+        25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#90a4ae",
+      "material": "concrete",
+      "size": [
+        8,
+        8,
+        9.6
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "barrels",
+      "position": [
+        5.5,
+        0.15,
+        12
+      ],
+      "rotationY": 0
+    },
+    {
+      "kind": "human",
+      "position": [
+        5.2,
+        0.15,
+        -3.4
+      ],
+      "rotationY": 0
+    }
+  ],
+  "order": 6
+}

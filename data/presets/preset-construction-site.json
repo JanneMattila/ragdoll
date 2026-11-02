@@ -1,0 +1,910 @@
+{
+  "id": "preset-construction-site",
+  "name": "Construction Site",
+  "description": "An unfinished three-floor concrete frame, a tower crane, steel beams, a brick pile and a dirt mound.",
+  "source": "preset",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "environment": {
+    "sky": "#cfd8dc",
+    "ground": "#a1887f",
+    "fog": 0.01,
+    "sunIntensity": 2.2
+  },
+  "spawn": {
+    "position": [
+      0,
+      9.13,
+      3.5
+    ],
+    "rotationY": 0
+  },
+  "camera": {
+    "position": [
+      14,
+      10,
+      17
+    ],
+    "target": [
+      0,
+      5,
+      3
+    ]
+  },
+  "objects": [
+    {
+      "type": "box",
+      "position": [
+        0,
+        3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9e9e9e",
+      "material": "concrete",
+      "name": "floor slab",
+      "size": [
+        8,
+        0.25,
+        8
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.7,
+        1.5,
+        -3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.7,
+        1.5,
+        -3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.7,
+        1.5,
+        3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.7,
+        1.5,
+        3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        0,
+        1.5,
+        -3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        6,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9e9e9e",
+      "material": "concrete",
+      "name": "floor slab",
+      "size": [
+        8,
+        0.25,
+        8
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.7,
+        4.5,
+        -3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.7,
+        4.5,
+        -3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.7,
+        4.5,
+        3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.7,
+        4.5,
+        3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        0,
+        4.5,
+        -3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        9,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#9e9e9e",
+      "material": "concrete",
+      "name": "floor slab",
+      "size": [
+        8,
+        0.25,
+        8
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.7,
+        7.5,
+        -3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.7,
+        7.5,
+        -3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.7,
+        7.5,
+        3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.7,
+        7.5,
+        3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        0,
+        7.5,
+        -3.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bdbdbd",
+      "material": "concrete",
+      "radius": 0.2,
+      "height": 3
+    },
+    {
+      "type": "stairs",
+      "position": [
+        7.6,
+        0,
+        2
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#757575",
+      "material": "metal",
+      "steps": 12,
+      "stepHeight": 0.26,
+      "stepDepth": 0.3,
+      "width": 1.2,
+      "landingDepth": 0
+    },
+    {
+      "type": "box",
+      "position": [
+        -9,
+        12.5,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fbc02d",
+      "material": "metal",
+      "name": "crane tower",
+      "size": [
+        1,
+        25,
+        1
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -3,
+        24.6,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fbc02d",
+      "material": "metal",
+      "name": "crane jib",
+      "size": [
+        20,
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        5,
+        23.5,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#616161",
+      "material": "metal",
+      "name": "counterweight",
+      "size": [
+        1.4,
+        1.4,
+        1.4
+      ]
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -6,
+        -2.6,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8d6e63",
+      "material": "grass",
+      "name": "dirt mound",
+      "radius": 4
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        7,
+        1.02,
+        -5
+      ],
+      "rotation": [
+        0,
+        0,
+        70
+      ],
+      "color": "#ff7043",
+      "material": "metal",
+      "name": "mixer drum",
+      "radius": 0.8,
+      "height": 1.6
+    },
+    {
+      "type": "box",
+      "position": [
+        -2,
+        0.15,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b71c1c",
+      "material": "metal",
+      "name": "steel beam",
+      "size": [
+        4,
+        0.3,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 30
+    },
+    {
+      "type": "box",
+      "position": [
+        -2,
+        0.44999999999999996,
+        8.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b71c1c",
+      "material": "metal",
+      "name": "steel beam",
+      "size": [
+        4,
+        0.3,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 30
+    },
+    {
+      "type": "box",
+      "position": [
+        -2,
+        0.75,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b71c1c",
+      "material": "metal",
+      "name": "steel beam",
+      "size": [
+        4,
+        0.3,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 30
+    },
+    {
+      "type": "box",
+      "position": [
+        -2,
+        1.0499999999999998,
+        8.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b71c1c",
+      "material": "metal",
+      "name": "steel beam",
+      "size": [
+        4,
+        0.3,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 30
+    },
+    {
+      "type": "box",
+      "position": [
+        1.1600000000000001,
+        0.1,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        1.58,
+        0.1,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        2,
+        0.1,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        2.42,
+        0.1,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        2.84,
+        0.1,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        1.37,
+        0.30000000000000004,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        1.79,
+        0.30000000000000004,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        2.21,
+        0.30000000000000004,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        2.63,
+        0.30000000000000004,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        1.58,
+        0.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        2,
+        0.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        2.42,
+        0.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        1.79,
+        0.7000000000000001,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        2.21,
+        0.7000000000000001,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    },
+    {
+      "type": "box",
+      "position": [
+        2,
+        0.9,
+        7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c62828",
+      "material": "default",
+      "name": "brick",
+      "size": [
+        0.4,
+        0.2,
+        0.2
+      ],
+      "dynamic": true,
+      "mass": 2.5
+    }
+  ],
+  "items": [],
+  "order": 8
+}

@@ -1,0 +1,902 @@
+{
+  "id": "preset-bowling-alley",
+  "name": "Giant Bowling Alley",
+  "description": "Three polished (very slippery) lanes with oversized pins. Push the ragdoll down the lane for a strike.",
+  "source": "preset",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "environment": {
+    "sky": "#1b1f3a",
+    "ground": "#2b2b40",
+    "fog": 0.02,
+    "sunIntensity": 1.6
+  },
+  "spawn": {
+    "position": [
+      0,
+      0.1,
+      6
+    ],
+    "rotationY": 180
+  },
+  "camera": {
+    "position": [
+      3,
+      3,
+      11
+    ],
+    "target": [
+      0,
+      0.4,
+      -2
+    ]
+  },
+  "objects": [
+    {
+      "type": "box",
+      "position": [
+        0,
+        1.5,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#263238",
+      "material": "default",
+      "name": "back wall",
+      "size": [
+        10,
+        3,
+        0.4
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.01,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#5d4037",
+      "material": "wood",
+      "name": "approach",
+      "size": [
+        10,
+        0.02,
+        8
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -3,
+        0.05,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#e0b77a",
+      "material": "ice",
+      "name": "lane",
+      "size": [
+        1.6,
+        0.1,
+        22
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -3.95,
+        0.01,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "default",
+      "size": [
+        0.3,
+        0.02,
+        22
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -2.05,
+        0.01,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "default",
+      "size": [
+        0.3,
+        0.02,
+        22
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3,
+        0.475,
+        -10
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.21,
+        0.475,
+        -10.38
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -2.79,
+        0.475,
+        -10.38
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.42,
+        0.475,
+        -10.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3,
+        0.475,
+        -10.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -2.58,
+        0.475,
+        -10.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.63,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3.21,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -2.79,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -2.37,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.05,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#e0b77a",
+      "material": "ice",
+      "name": "lane",
+      "size": [
+        1.6,
+        0.1,
+        22
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -0.95,
+        0.01,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "default",
+      "size": [
+        0.3,
+        0.02,
+        22
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0.95,
+        0.01,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "default",
+      "size": [
+        0.3,
+        0.02,
+        22
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        0,
+        0.475,
+        -10
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -0.21,
+        0.475,
+        -10.38
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        0.21,
+        0.475,
+        -10.38
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -0.42,
+        0.475,
+        -10.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        0,
+        0.475,
+        -10.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        0.42,
+        0.475,
+        -10.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -0.63,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -0.21,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        0.21,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        0.63,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "box",
+      "position": [
+        3,
+        0.05,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#e0b77a",
+      "material": "ice",
+      "name": "lane",
+      "size": [
+        1.6,
+        0.1,
+        22
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        2.05,
+        0.01,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "default",
+      "size": [
+        0.3,
+        0.02,
+        22
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        3.95,
+        0.01,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#424242",
+      "material": "default",
+      "size": [
+        0.3,
+        0.02,
+        22
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3,
+        0.475,
+        -10
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        2.79,
+        0.475,
+        -10.38
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.21,
+        0.475,
+        -10.38
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        2.58,
+        0.475,
+        -10.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3,
+        0.475,
+        -10.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.42,
+        0.475,
+        -10.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        2.37,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        2.79,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.21,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#f5f5f5",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3.63,
+        0.475,
+        -11.14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#fafafa",
+      "material": "default",
+      "name": "pin",
+      "radius": 0.11,
+      "height": 0.75,
+      "dynamic": true,
+      "mass": 1.6
+    },
+    {
+      "type": "box",
+      "position": [
+        -4.6,
+        0.6,
+        -1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#37474f",
+      "material": "default",
+      "size": [
+        0.2,
+        1.2,
+        30
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        4.6,
+        0.6,
+        -1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#37474f",
+      "material": "default",
+      "size": [
+        0.2,
+        1.2,
+        30
+      ]
+    }
+  ],
+  "items": [],
+  "order": 7
+}

@@ -1,0 +1,195 @@
+{
+  "id": "preset-staircase",
+  "name": "Grand Staircase",
+  "description": "A long double staircase with a landing on top. Perfect for the classic tumble-down-the-stairs test.",
+  "source": "preset",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "environment": {
+    "sky": "#bcd7f0",
+    "ground": "#8f9a86",
+    "fog": 0.008,
+    "sunIntensity": 2.2
+  },
+  "spawn": {
+    "position": [
+      0,
+      4,
+      -2.5
+    ],
+    "rotationY": 0
+  },
+  "camera": {
+    "position": [
+      13,
+      7.5,
+      5
+    ],
+    "target": [
+      0,
+      2.2,
+      0
+    ]
+  },
+  "objects": [
+    {
+      "type": "stairs",
+      "position": [
+        0,
+        0,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#c9c3b6",
+      "material": "concrete",
+      "steps": 20,
+      "stepHeight": 0.2,
+      "stepDepth": 0.35,
+      "width": 3,
+      "landingDepth": 3
+    },
+    {
+      "type": "stairs",
+      "position": [
+        0,
+        0,
+        -11
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#c9c3b6",
+      "material": "concrete",
+      "steps": 20,
+      "stepHeight": 0.2,
+      "stepDepth": 0.35,
+      "width": 3,
+      "landingDepth": 0
+    },
+    {
+      "type": "box",
+      "position": [
+        -1.55,
+        4.5,
+        -2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8a6a4a",
+      "material": "wood",
+      "name": "railing",
+      "size": [
+        0.1,
+        1,
+        3
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        3,
+        0.4,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#a0522d",
+      "material": "default",
+      "radius": 0.6,
+      "height": 0.8
+    },
+    {
+      "type": "sphere",
+      "position": [
+        3,
+        1.2,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f9a4f",
+      "material": "default",
+      "radius": 0.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -3,
+        0.4,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#a0522d",
+      "material": "default",
+      "radius": 0.6,
+      "height": 0.8
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -3,
+        1.2,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#4f9a4f",
+      "material": "default",
+      "radius": 0.6
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.025,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#b03a3a",
+      "material": "default",
+      "name": "carpet",
+      "size": [
+        8,
+        0.05,
+        4
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "cratePyramid",
+      "position": [
+        0,
+        0.05,
+        9.5
+      ],
+      "rotationY": 0
+    }
+  ],
+  "order": 0
+}

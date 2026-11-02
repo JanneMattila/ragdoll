@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ragdoll Playground</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "/vendor/three/build/three.module.js",
+        "three/addons/": "/vendor/three/examples/jsm/",
+        "cannon-es": "/vendor/cannon-es/cannon-es.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <aside id="sidebar">
+    <header class="brand">
+      <span class="logo">🤸</span>
+      <div>
+        <h1>Ragdoll Playground</h1>
+        <small>cannon-es physics · three.js · Copilot SDK</small>
+      </div>
+    </header>
+
+    <section>
+      <h2>Scenes</h2>
+      <div class="scene-group-title">Everyday places</div>
+      <ul id="preset-list" class="scene-list"></ul>
+      <div class="scene-group-title">Your generated scenes <span id="user-count" class="badge">0</span></div>
+      <ul id="user-list" class="scene-list"><li class="empty">No generated scenes yet</li></ul>
+    </section>
+
+    <section>
+      <h2>Place an item <small>(tool: Place, click a surface)</small></h2>
+      <div id="item-grid" class="grid"></div>
+    </section>
+
+    <section>
+      <h2>Apply force</h2>
+      <div id="tool-grid" class="grid"></div>
+      <label class="slider">Strength <input id="strength" type="range" min="1" max="10" step="1" value="4" /><output id="strength-out">4</output></label>
+    </section>
+
+    <section>
+      <h2>Physics mode</h2>
+      <div id="mode-grid" class="grid modes"></div>
+      <p id="mode-desc" class="hint"></p>
+      <label class="slider">Time scale <input id="timescale" type="range" min="0.1" max="2" step="0.1" value="1" /><output id="timescale-out">1.0×</output></label>
+      <label class="check"><input id="wind" type="checkbox" /> Wind / air pressure (blows away from camera)</label>
+    </section>
+
+    <section>
+      <h2>Camera</h2>
+      <div id="view-grid" class="grid views">
+        <button data-view="front">⬆ Front</button>
+        <button data-view="back">⬇ Back</button>
+        <button data-view="left">⬅ Left</button>
+        <button data-view="right">➡ Right</button>
+        <button data-view="top">🔝 Top</button>
+        <button data-view="low">🐜 Low angle</button>
+        <button data-view="reset">🎬 Scene view</button>
+        <button data-view="ragdoll">🎯 Focus ragdoll</button>
+      </div>
+      <label class="check"><input id="follow" type="checkbox" /> Follow the ragdoll (F)</label>
+      <p class="hint keys">
+        <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> / arrows move · <kbd>Q</kbd><kbd>E</kbd> turn<br />
+        <kbd>Z</kbd><kbd>X</kbd> down / up · <kbd>T</kbd><kbd>G</kbd> tilt · <kbd>+</kbd><kbd>-</kbd> zoom · <kbd>Shift</kbd> faster<br />
+        Mouse: right-drag turn · middle-drag or <kbd>Ctrl</kbd>+right-drag pan · wheel zoom
+      </p>
+    </section>
+
+    <section class="actions">
+      <button id="btn-drop" title="Drop a ragdoll at the scene spawn point (N)">🧍 Drop ragdoll</button>
+      <button id="btn-kick" title="Push the latest ragdoll forward (K)">🦶 Kick!</button>
+      <button id="btn-pause" title="Pause / resume (Space)">⏸ Pause</button>
+      <button id="btn-reset" title="Reload the scene (Backspace)">↺ Reset</button>
+      <button id="btn-clear" title="Remove all items">🧹 Clear items</button>
+    </section>
+  </aside>
+
+  <main id="viewport">
+    <div id="hud">
+      <div id="scene-title"></div>
+      <div id="scene-desc"></div>
+    </div>
+    <div id="hint" class="hint-bar"></div>
+    <div id="stats"></div>
+    <div id="toast"></div>
+  </main>
+
+  <!-- Hidden until /api/status reports that GitHub Copilot chat is enabled and available. -->
+  <aside id="chat" hidden>
+    <header>
+      <h2>Scene designer chat</h2>
+      <small id="model-name">Copilot SDK</small>
+    </header>
+    <div id="messages">
+      <div class="msg bot">Hi! Describe any place and I'll build it as a physics playground. Try <em>"a supermarket with shopping carts and tall shelves"</em> or <em>"a windy mountain cliff with a wooden rope bridge"</em>. Every generated scene is saved permanently in the list on the left.</div>
+    </div>
+    <form id="chat-form">
+      <label class="check"><input id="modify-current" type="checkbox" /> Modify the current scene</label>
+      <textarea id="chat-input" rows="3" placeholder="Describe a scene..." required></textarea>
+      <button id="chat-send" type="submit">Generate scene ✨</button>
+    </form>
+  </aside>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,370 @@
+{
+  "id": "preset-pyramid",
+  "name": "Stepped Pyramid",
+  "description": "An eight-level stepped pyramid with a steep staircase on the front and an icy slide on the side.",
+  "source": "preset",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "environment": {
+    "sky": "#f3d9a4",
+    "ground": "#c9b07a",
+    "fog": 0.006,
+    "sunIntensity": 2.8
+  },
+  "spawn": {
+    "position": [
+      0,
+      8,
+      0
+    ],
+    "rotationY": 0
+  },
+  "camera": {
+    "position": [
+      18,
+      13,
+      20
+    ],
+    "target": [
+      0,
+      4,
+      0
+    ]
+  },
+  "objects": [
+    {
+      "type": "box",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cfb47a",
+      "material": "concrete",
+      "size": [
+        16,
+        1,
+        16
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        1.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#d8c08a",
+      "material": "concrete",
+      "size": [
+        14,
+        1,
+        14
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        2.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cfb47a",
+      "material": "concrete",
+      "size": [
+        12,
+        1,
+        12
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        3.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#d8c08a",
+      "material": "concrete",
+      "size": [
+        10,
+        1,
+        10
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        4.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cfb47a",
+      "material": "concrete",
+      "size": [
+        8,
+        1,
+        8
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        5.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#d8c08a",
+      "material": "concrete",
+      "size": [
+        6,
+        1,
+        6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        6.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#cfb47a",
+      "material": "concrete",
+      "size": [
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        0,
+        7.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#d8c08a",
+      "material": "concrete",
+      "size": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "type": "stairs",
+      "position": [
+        0,
+        0,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#bfa36a",
+      "material": "concrete",
+      "steps": 16,
+      "stepHeight": 0.5,
+      "stepDepth": 0.5,
+      "width": 3,
+      "landingDepth": 0
+    },
+    {
+      "type": "ramp",
+      "position": [
+        9,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "color": "#d9f0ff",
+      "material": "ice",
+      "name": "ice slide",
+      "size": [
+        3,
+        8,
+        16
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -12,
+        2,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6b4a2b",
+      "material": "wood",
+      "radius": 0.18,
+      "height": 4
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -12,
+        5,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2f7d32",
+      "material": "default",
+      "radius": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -11,
+        2,
+        -9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6b4a2b",
+      "material": "wood",
+      "radius": 0.18,
+      "height": 4
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -11,
+        5,
+        -9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2f7d32",
+      "material": "default",
+      "radius": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        13,
+        2,
+        -10
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6b4a2b",
+      "material": "wood",
+      "radius": 0.18,
+      "height": 4
+    },
+    {
+      "type": "sphere",
+      "position": [
+        13,
+        5,
+        -10
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2f7d32",
+      "material": "default",
+      "radius": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -14,
+        2,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6b4a2b",
+      "material": "wood",
+      "radius": 0.18,
+      "height": 4
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -14,
+        5,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2f7d32",
+      "material": "default",
+      "radius": 1.6
+    }
+  ],
+  "items": [],
+  "order": 1
+}

@@ -1,0 +1,359 @@
+{
+  "id": "preset-ski-jump",
+  "name": "Ski Jump",
+  "description": "An icy 12 m in-run with a kicker at the bottom and a snowy landing hill. Pure arcade launch material.",
+  "source": "preset",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "environment": {
+    "sky": "#cfe8ff",
+    "ground": "#f4f8fb",
+    "fog": 0.01,
+    "sunIntensity": 2.6
+  },
+  "spawn": {
+    "position": [
+      0,
+      12,
+      -19.4
+    ],
+    "rotationY": 0
+  },
+  "camera": {
+    "position": [
+      26,
+      13,
+      -2
+    ],
+    "target": [
+      0,
+      4,
+      -4
+    ]
+  },
+  "objects": [
+    {
+      "type": "box",
+      "position": [
+        0,
+        6,
+        -20
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#8d6e63",
+      "material": "wood",
+      "name": "start tower",
+      "size": [
+        3,
+        12,
+        3
+      ]
+    },
+    {
+      "type": "ramp",
+      "position": [
+        0,
+        0,
+        -10.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#e3f2fd",
+      "material": "ice",
+      "name": "in-run",
+      "size": [
+        3,
+        12,
+        16
+      ]
+    },
+    {
+      "type": "ramp",
+      "position": [
+        0,
+        0,
+        -1
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "color": "#bbdefb",
+      "material": "ice",
+      "name": "kicker",
+      "size": [
+        3,
+        1.2,
+        3
+      ]
+    },
+    {
+      "type": "ramp",
+      "position": [
+        0,
+        0,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#ffffff",
+      "material": "ice",
+      "name": "landing hill",
+      "size": [
+        10,
+        1.2,
+        14
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -4,
+        0.3,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#e53935",
+      "material": "default",
+      "name": "marker",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -4,
+        0.3,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#e53935",
+      "material": "default",
+      "name": "marker",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "type": "box",
+      "position": [
+        -4,
+        0.3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#e53935",
+      "material": "default",
+      "name": "marker",
+      "size": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -7,
+        2.5,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6b4a2b",
+      "material": "wood",
+      "radius": 0.18,
+      "height": 5
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -7,
+        6.25,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#1b5e20",
+      "material": "default",
+      "radius": 2
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -8,
+        2,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6b4a2b",
+      "material": "wood",
+      "radius": 0.18,
+      "height": 4
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -8,
+        5,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2e7d32",
+      "material": "default",
+      "radius": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -7,
+        2.25,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6b4a2b",
+      "material": "wood",
+      "radius": 0.18,
+      "height": 4.5
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -7,
+        5.625,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#1b5e20",
+      "material": "default",
+      "radius": 1.8
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        12,
+        2,
+        26
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6b4a2b",
+      "material": "wood",
+      "radius": 0.18,
+      "height": 4
+    },
+    {
+      "type": "sphere",
+      "position": [
+        12,
+        5,
+        26
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#2e7d32",
+      "material": "default",
+      "radius": 1.6
+    },
+    {
+      "type": "cylinder",
+      "position": [
+        -9,
+        2.5,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#6b4a2b",
+      "material": "wood",
+      "radius": 0.18,
+      "height": 5
+    },
+    {
+      "type": "sphere",
+      "position": [
+        -9,
+        6.25,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": "#1b5e20",
+      "material": "default",
+      "radius": 2
+    }
+  ],
+  "items": [
+    {
+      "kind": "snowman",
+      "position": [
+        -5,
+        0,
+        24
+      ],
+      "rotationY": 0
+    }
+  ],
+  "order": 9
+}

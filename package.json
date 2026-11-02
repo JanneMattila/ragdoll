@@ -1,0 +1,28 @@
+{
+  "name": "ragdoll-playground",
+  "version": "1.0.0",
+  "description": "Ragdoll physics playground with AI-generated scenes (Copilot SDK)",
+  "main": "server.js",
+  "scripts": {
+    "build": "node scripts/build-presets.js",
+    "build:ai": "node scripts/build-presets.js --ai",
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.mjs",
+    "test:e2e": "node test/e2e.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@github/copilot-sdk": "^1.0.26",
+    "cannon-es": "^0.20.0",
+    "express": "^5.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  },
+  "type": "module"
+}
+
