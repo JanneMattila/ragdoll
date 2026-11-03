@@ -344,14 +344,20 @@ export class PhysicsSim {
     const local = body.pointToLocalFrame(p);
     const c = new CANNON.PointToPointConstraint(body, local, anchor, new CANNON.Vec3(0, 0, 0), 4000);
     this.world.addConstraint(c);
-    body.wakeUp();
-    this.grabbed = { body, anchor, constraint: c };
+    // Sleeping bodies don't move in the solver, so wake the whole item (e.g. every limb of a human)
+    // or the grabbed part would be pulled out of its joints instead of dragging the body along.
+    const item = this.items.find((i) => i.id === body.userData?.itemId);
+    this.grabbed = { body, anchor, constraint: c, bodies: item ? item.bodies : [body] };
+    this._wakeGrabbed();
     return true;
   }
   moveGrab(point) {
     if (!this.grabbed) return;
     this.grabbed.anchor.position.set(...point);
-    this.grabbed.body.wakeUp();
+    this._wakeGrabbed();
+  }
+  _wakeGrabbed() {
+    for (const b of this.grabbed.bodies) b.wakeUp();
   }
   release() {
     if (!this.grabbed) return;
@@ -361,6 +367,7 @@ export class PhysicsSim {
   }
 
   _preStep() {
+    if (this.grabbed) this._wakeGrabbed();
     this._balance();
     const fs = this.forceScale;
     this.blasts = this.blasts.filter((b) => b.until > this.time);

@@ -153,3 +153,26 @@ test('balancing human wakes and reacts when a sleeping body part is hit', () => 
   run(sim, 4);
   assert.equal(h.balance.active, false, 'a 7 kg ball to the head should knock the human over');
 });
+
+for (const kind of ['human', 'ragdoll']) {
+  test(`grabbing a leg of a sleeping ${kind} drags the whole body`, () => {
+    const sim = new PhysicsSim();
+    sim.loadScene(FLAT);
+    const item = sim.addItem(kind, FLAT.spawn.position, 0);
+    run(sim, 15);
+    assert.ok(item.bodies.some((b) => b.sleepState === 2), `settled ${kind} should have sleeping parts`);
+    const { lowerLegL: leg, torso } = item.parts;
+    const t0 = torso.position.clone();
+    const start = [leg.position.x, leg.position.y, leg.position.z];
+    assert.ok(sim.grab(leg, start));
+    for (let i = 1; i <= 120; i++) {
+      sim.moveGrab([start[0] + (3 * i) / 120, start[1] + 0.5, start[2]]);
+      sim.step(1 / 60);
+    }
+    run(sim, 1);
+    const moved = torso.position.x - t0.x;
+    sim.release();
+    assert.ok(moved > 2, `torso only moved ${moved.toFixed(2)} m while the leg was dragged 3 m`);
+    assert.ok(sim.isFinite());
+  });
+}
